@@ -61,9 +61,6 @@ export const IconSection = styled.div`
       display: none;
     }
   }
-  ${ResponsiveTo('lg')}{
-
-  }
   ${ResponsiveTo('xl')}{
     flex-direction: row;
     align-items: center;
