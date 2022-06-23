@@ -24,8 +24,6 @@ export const useCountdown = () => {
       const seconds = Math.floor((distance % (60 * 1000)) / 1000)
 
       if (distance < 0) {
-        // Stop Timer
-
         clearInterval(interval.current)
       } else {
         // Update Timer
@@ -51,6 +49,6 @@ export const useCountdown = () => {
       minutes: timerMinutes,
       seconds: timerSeconds
     },
-    startTimer()]
+    startTimer]
   )
 }
