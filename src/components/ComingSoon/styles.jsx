@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { ResponsiveTo } from '@/hooks/useResponsive'
+
 export const Grid = styled.div`
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@ export const IconSection = styled.div`
   img{
     display: none;
     width: 246px;
-    height: 215px;
+    height: 245px;
   }
   h2{
     text-align: center;
@@ -44,7 +45,7 @@ export const IconSection = styled.div`
   .icon-clock{
       display: flex;
       margin-bottom: 24px;
-    }
+  }
   ${ResponsiveTo('md')}{
     position: relative;
     img{

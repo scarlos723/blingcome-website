@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react'
 import { Countdown, CountSection, Grid, IconSection } from './styles'
-import iconBling from '../../icon.svg'
 import { useCountdown } from '../../hooks/useCountDown'
+
+// icons
 import { ReactComponent as ClockIcon } from '@/icons/home/clock.svg'
+import iconBling from '@/icons/home/blingIcon.png'
+
 export default function ComingSoon () {
   const [countdown, startTimer] = useCountdown()
   useEffect(() => {
