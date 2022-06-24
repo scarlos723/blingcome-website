@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ResponsiveTo } from '@/hooks/useResponsive'
+import { ResponsiveTo } from '../../hooks/UseResponsive'
 
 export const Grid = styled.div`
   display: flex;
