@@ -5,7 +5,9 @@ import { ReactComponent as LipsIcon } from '@/icons/home/lipstick.svg'
 import { ReactComponent as WalletIcon } from '@/icons/home/wallet.svg'
 import { ReactComponent as BagIcon } from '@/icons/home/bag.svg'
 import { Grid, ImgSection, MenuSection, TextSection } from './styles'
+import useSectionMenu from '../../hooks/useSectionMenu'
 export default function BannerHome () {
+  const goToSection = useSectionMenu()
   return (
     <Grid>
       <ImgSection>
@@ -30,13 +32,13 @@ export default function BannerHome () {
       </TextSection>
       <MenuSection>
         <ul>
-          <li>
+          <li onClick={() => goToSection('this-is-blincome-section')}>
           This is Blingcome
           </li>
-          <li>
+          <li onClick={() => goToSection('fashion-section')} >
           Fashion
           </li>
-          <li>
+          <li onClick={() => goToSection('coming-soon-section')}>
           Coming soon
           </li>
           <li>

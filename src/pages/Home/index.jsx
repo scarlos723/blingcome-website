@@ -12,9 +12,16 @@ export default function Home () {
       <BannerHome />
       <DontGet />
       <ReelSection />
-      <ThisIs />
-      <Fashion />
-      <ComingSoon />
+      <div id='this-is-blincome-section'>
+        <ThisIs />
+      </div>
+      <div id='fashion-section'>
+        <Fashion />
+      </div>
+      <div id="coming-soon-section">
+        <ComingSoon />
+      </div>
+
     </div>
   )
 }

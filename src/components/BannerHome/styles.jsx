@@ -73,8 +73,12 @@ export const MenuSection = styled.section`
       width: 100%;
       padding-right: 20px;
       gap: 50px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-size: 1rem;
       li{
         text-align: right;
+        cursor: pointer;
       }
     }
   }
