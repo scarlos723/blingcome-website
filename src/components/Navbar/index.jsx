@@ -2,17 +2,48 @@ import React from 'react'
 import { Menu, Nav, NavContainer } from './styles'
 import { ReactComponent as Logo } from '@/icons/navbar/blingTextLogo.svg'
 import { VscMenu } from 'react-icons/vsc'
+import { Link } from 'react-router-dom'
 export default function Navbar () {
   return (
     <NavContainer>
       <Nav>
         <div className='logo-container'>
-          <Logo />
+          <Link to='/'>
+            <Logo />
+          </Link>
         </div>
 
         <Menu>
-          <li>About us</li>
-          <li>Blingcome</li>
+          <li>
+            <Link to='about-us'>
+            About us
+            </Link>
+          </li>
+          <li>
+            <Link to='about-us'>
+            Tokenomics
+            </Link>
+          </li>
+          <li>
+            <Link to='about-us'>
+            Benefits
+            </Link>
+          </li>
+          <li>
+            <Link to='about-us'>
+            Our Team
+            </Link>
+          </li>
+          <li>
+            <Link to='about-us'>
+            Ambassadors
+            </Link>
+          </li>
+          <li>
+            <Link to='about-us'>
+            Contact
+            </Link>
+          </li>
         </Menu>
 
         <div className='btn-container'>

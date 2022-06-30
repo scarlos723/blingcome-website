@@ -16,3 +16,25 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
 }
+
+.custom-container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 294px;
+}
+
+@media only screen and (min-width: 768px) {
+  .custom-container{
+    max-width: 614px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .custom-container{
+    max-width: 872px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
