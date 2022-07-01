@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ResponsiveTo } from '@/hooks/useResponsive'
+import { ResponsiveTo } from '../../hooks/useResponsive'
 
 export const Section = styled.div`
   padding: 2rem 1rem;
