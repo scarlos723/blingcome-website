@@ -20,7 +20,7 @@ export default function Navbar () {
             </Link>
           </li>
           <li>
-            <Link to='about-us'>
+            <Link to='tokenomics'>
             Tokenomics
             </Link>
           </li>

@@ -47,6 +47,9 @@ h1{
   /* or 42px */
   color: #FFFFFF;
 }
+h1 span{
+  color: #F3C46B;
+}
 h2{
   font-family: 'Montserrat';
   font-style: normal;
@@ -55,6 +58,9 @@ h2{
   line-height: 98.9%;
   /* or 36px */
   color: #FFFFFF;
+}
+h2 span{
+  color: #F3C46B;
 }
 h3{
   font-family: 'Montserrat';
@@ -66,6 +72,9 @@ h3{
   text-align: center;
   color: #FFFFFF;
 }
+h3 span{
+  color: #F3C46B;
+}
 p{
   font-family: 'Montserrat';
   font-style: normal;
@@ -74,6 +83,9 @@ p{
   line-height: 98.9%;
   /* or 16px */
   color: #FFFFFF;
+}
+p span{
+  color: #F3C46B;
 }
 
 @media only screen and (min-width: 768px) {
