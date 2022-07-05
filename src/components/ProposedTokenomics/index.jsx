@@ -1,7 +1,8 @@
 import React from 'react'
 import { Contain, TitleSection } from './styles'
 import girlImg from '@/images/tokenomics/girlImg.png'
-export default function Proposed () {
+
+export default function ProposedTokenomics () {
   return (
     <section className='custom-container'>
       <Contain>
