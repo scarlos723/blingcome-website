@@ -1,11 +1,12 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import BlingcomeTemplate from '../containers/BlingcomeTemplate'
-import AboutUs from '../pages/AboutUs'
+import BlingcomeTemplate from '@/containers/BlingcomeTemplate'
+import AboutUs from '@/pages/AboutUs'
 import Benefits from '@/pages/Benefits'
-import Home from '../pages/Home'
-import Tokenomics from '../pages/Tokenomics'
-import '../styles/App.css'
+import Home from '@/pages/Home'
+import Tokenomics from '@/pages/Tokenomics'
+import '@/styles/App.css'
+import OurTeam from '@/pages/OurTeam'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/tokenomics' element={<Tokenomics />} />
           <Route path='/benefits' element={<Benefits />} />
+          <Route path='/our-team' element={<OurTeam />} />
         </Route>
       </Routes>
     </BrowserRouter>

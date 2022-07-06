@@ -30,7 +30,7 @@ export default function Navbar () {
             </Link>
           </li>
           <li>
-            <Link to='about-us'>
+            <Link to='our-team'>
             Our Team
             </Link>
           </li>
