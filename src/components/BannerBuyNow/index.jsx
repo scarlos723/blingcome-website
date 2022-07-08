@@ -2,6 +2,7 @@ import React from 'react'
 import girlImg from '@/images/buyNow/girl.png'
 import stepper from '@/images/buyNow/stepper.png'
 import { BoxImg, Grid, Section, TextBox } from './styles'
+import starsImg from '@/images/aboutUs/stars.png'
 export default function BannerBuyNow () {
   return (
     <Section>
@@ -19,7 +20,7 @@ export default function BannerBuyNow () {
 
         </TextBox>
       </Grid>
-
+      <img className='stars-img' src={starsImg} alt="stars image" />
     </Section>
   )
 }

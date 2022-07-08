@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerBuyNow from '../../components/BannerBuyNow'
-import { ExchangesSection, FormSection, Grid, OrSection } from './styles'
+import { Background, ExchangesSection, FormSection, Grid, OrSection } from './styles'
 import conistore from '@/images/aboutUs/conistore.png'
 import fmfw from '@/images/aboutUs/fmfw.png'
 import uniswap from '@/images/aboutUs/uniswap.png'
@@ -9,7 +9,7 @@ import BuyNowPopup from '../../components/BuyNowPopup'
 export default function BuyNow () {
   const [showPopup, setShowPopup] = React.useState(false)
   return (
-    <div>
+    <Background>
       {
         showPopup &&
         <BuyNowPopup {...{ setShowPopup }} />
@@ -34,6 +34,6 @@ export default function BuyNow () {
           <ContactForm {...{ setShowPopup }}/>
         </FormSection>
       </ExchangesSection>
-    </div>
+    </Background>
   )
 }

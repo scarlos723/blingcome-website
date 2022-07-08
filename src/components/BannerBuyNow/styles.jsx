@@ -1,9 +1,34 @@
 import styled from 'styled-components'
 import { ResponsiveTo } from '@/hooks/useResponsive'
+import diskImg from '@/images/aboutUs/disk.svg'
 export const Section = styled.section`
   display: grid;
   place-content: center;
   place-items: center;
+  position: relative;
+  .stars-img{
+    display: none;
+  }
+  ${ResponsiveTo('md')}{
+    background-image: url(${diskImg});
+    background-repeat: no-repeat;
+    background-size: 599.77px 599.77px;
+    background-position-x: -200px;
+    background-position-y: center;
+  
+  }
+  ${ResponsiveTo('lg')}{
+    height: 600px;
+    .stars-img{
+      display: block;
+      width: 774px;
+      height: 682px;
+      position: absolute;
+      top: 180px;
+      left: -190px;
+      object-fit: contain;
+    }
+  }
 `
 export const Grid = styled.div`
   display: flex;

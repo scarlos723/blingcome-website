@@ -1,6 +1,25 @@
 import styled from 'styled-components'
 import { ResponsiveTo } from '../../hooks/UseResponsive'
+import starsImg from '@/images/aboutUs/stars.png'
+export const Background = styled.div`
 
+  ${ResponsiveTo('md')}{
+    background-image: url(${starsImg});
+    background-repeat: no-repeat;
+    background-size: 435px 384px;
+    background-position-x: 165%;
+    background-position-y: 55%;
+  }
+  ${ResponsiveTo('lg')}{
+    background-position-x: 145%;
+    background-position-y: 40%
+  }
+  ${ResponsiveTo('xl')}{
+    background-position-x: 125%;
+    background-position-y: 53%;
+  }
+
+`
 export const ExchangesSection = styled.section`
   display: grid;
   place-content: center;
@@ -28,7 +47,6 @@ export const Grid = styled.div`
     padding: 0 28px;
     img{
       width: 100%;
-
     }
   }
   ${ResponsiveTo('md')}{
