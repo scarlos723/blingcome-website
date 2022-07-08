@@ -8,6 +8,7 @@ import Tokenomics from '@/pages/Tokenomics'
 import '@/styles/App.css'
 import OurTeam from '@/pages/OurTeam'
 import BuyNow from '@/pages/BuyNow'
+import Payment from '@/pages/Payment'
 
 function App () {
   return (
@@ -20,6 +21,7 @@ function App () {
           <Route path='/benefits' element={<Benefits />} />
           <Route path='/our-team' element={<OurTeam />} />
           <Route path='/buy-now' element={<BuyNow />} />
+          <Route path='/payment' element={<Payment />} />
         </Route>
       </Routes>
     </BrowserRouter>

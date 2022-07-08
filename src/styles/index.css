@@ -26,6 +26,7 @@ li,
 h1,
 h2,
 h3,
+h4,
 p,
 button {
   margin: 0;
@@ -74,6 +75,18 @@ h3{
   color: #FFFFFF;
 }
 h3 span{
+  color: #F3C46B;
+}
+h4{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 98.9%;
+  /* or 33px */
+  color: #FFFFFF;
+}
+h4 span{
   color: #F3C46B;
 }
 p{

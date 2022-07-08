@@ -103,8 +103,10 @@ export const InputContainer = styled.div`
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 22px;
-  }
-  input{
+    text-align: left;
+  
+    }
+  input, textarea{
     color: white;
     display: grid;
     height: 49px;
@@ -113,6 +115,10 @@ export const InputContainer = styled.div`
     border: 0.5px solid #F3C46B;
     border-radius: 6px;
     padding: 0 40px;
+  }
+  textarea{
+    resize: none;
+    height: 289px;
   }
 
 `

@@ -1,12 +1,13 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Article, Contain, Container } from './styles'
 import logo from '@/images/buyNowPopup/textLogo.png'
 import { GrFormClose } from 'react-icons/gr'
 export default function BuyNowPopup (props) {
+  const navigate = useNavigate()
   function handlerButton () {
     props.setShowPopup(false)
-    Navigate('/buy-now-2')
+    navigate('/payment')
   }
   return (
     <Container>

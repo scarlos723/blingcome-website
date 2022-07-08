@@ -5,6 +5,8 @@ export const NavContainer = styled.header`
   display: grid;
   place-items: center;
   padding: 10px 0;
+  position: absolute;
+  width: 100%;
   ${ResponsiveTo('md')} {
     padding: 16px 0;
   }
