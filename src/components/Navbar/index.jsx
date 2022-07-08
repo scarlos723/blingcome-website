@@ -47,7 +47,7 @@ export default function Navbar () {
         </Menu>
 
         <div className='btn-container'>
-          <button className='custom-btn'>
+          <button >
           Register
           </button>
         </div>

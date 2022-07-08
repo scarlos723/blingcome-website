@@ -4,12 +4,12 @@ import { ResponsiveTo } from '../../hooks/UseResponsive'
 export const NavContainer = styled.header`
   display: grid;
   place-items: center;
-  padding: 27px 0;
+  padding: 10px 0;
   ${ResponsiveTo('md')} {
-    padding: 36px 0;
+    padding: 16px 0;
   }
   ${ResponsiveTo('lg')} {
-    padding: 54px 0;
+    padding: 24px 0;
   }
 `
 
@@ -29,6 +29,18 @@ export const Nav = styled.nav`
   }
   .btn-container{
     display: none;
+    button{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.859rem;
+      line-height: 98.9%;
+      color: black;
+      padding: 6px 30px;
+      background: #DCB772;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+    }
   }
   ${ResponsiveTo('md')}{
     display: grid ;

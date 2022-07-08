@@ -7,8 +7,9 @@ import Home from '@/pages/Home'
 import Tokenomics from '@/pages/Tokenomics'
 import '@/styles/App.css'
 import OurTeam from '@/pages/OurTeam'
+import BuyNow from '@/pages/BuyNow'
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,6 +19,7 @@ function App() {
           <Route path='/tokenomics' element={<Tokenomics />} />
           <Route path='/benefits' element={<Benefits />} />
           <Route path='/our-team' element={<OurTeam />} />
+          <Route path='/buy-now' element={<BuyNow />} />
         </Route>
       </Routes>
     </BrowserRouter>
